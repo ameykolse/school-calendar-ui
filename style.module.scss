@@ -1,0 +1,43 @@
+@use 'src/app/styles/colors' as *;
+@use 'src/app/styles/functions' as *;
+@use 'src/app/styles/util' as *;
+@use 'src/app/styles/fonts' as *;
+@use 'src/app/styles/breakpoint' as *;
+@import '../../../../../node_modules/@essnextgen/ui-kit/dist/build/assets/scss/tokens';
+@import '../../../../../node_modules/@essnextgen/ui-kit/dist/build/assets/scss/tokens-typography';
+
+.marginBottom {
+  margin-bottom: 24px !important;
+  color: $global-color-neutral-800;
+}
+
+.sidePanelTopPadding {
+  padding-top: 32px !important;
+}
+
+.marginBottomLabel {
+  margin-bottom: 8px !important;
+}
+
+.divider {
+  height: 1px;
+  align-self: stretch;
+}
+
+.margin_24 {
+  margin-bottom: rem(24) !important;
+  margin-top: rem(24) !important;
+}
+
+// @media screen and (max-width: 768px) {
+//   .cancel-btn {
+//     margin-bottom: 40px !important;
+//   }
+// }
+
+.div_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+

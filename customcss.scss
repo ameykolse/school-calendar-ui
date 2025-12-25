@@ -1,0 +1,26 @@
+.deleteOptionsBtns {
+  #reaction-btn-1 {
+    .essui-radio__label {
+      text-align: left;
+      white-space: normal;
+    }
+  }
+
+  .essui-reaction-button {
+    height: 100% !important;
+  }
+
+  .essui-reaction-button-group {
+    gap: 16px;
+  }
+}
+
+.deleteContentText {
+  margin-bottom: 24px;
+}
+
+.buttons {
+  display: flex;
+  gap: 24px;
+  justify-content: flex-end;
+}

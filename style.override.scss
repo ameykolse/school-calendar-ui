@@ -1,0 +1,157 @@
+@import '../../../../../node_modules/@essnextgen/ui-kit/dist/build/assets/scss/tokens';
+
+.school-calendar-side-panel {
+  .parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    border-radius: 8px;
+    border: 1px solid $global-color-neutral-100;
+    background: $global-color-neutral-50;
+  }
+
+  .childregister {
+    display: flex;
+    width: 100% !important;
+    padding: 0 16px 0 0;
+    align-items: center;
+    gap: 16px;
+    border: 1px solid $global-color-neutral-100;
+    background: $global-color-neutral-0;
+    margin: -1px;
+  }
+
+  .child {
+    display: flex;
+    width: 100% !important;
+    padding: 8px 16px;
+    align-items: center;
+    gap: 16px;
+    border: 1px solid $global-color-neutral-100;
+    background: $global-color-neutral-0;
+    margin: -1px;
+  }
+
+  .present {
+    background-color: $global-color-supporting-success-200;
+    height: 56px;
+    width: 56px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .absent {
+    background-color: $global-color-supporting-critical-300;
+    height: 56px;
+    width: 56px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .late {
+    background-color: $global-color-supporting-warning-200;
+    height: 56px;
+    width: 56px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .none {
+    background-color: $global-color-neutral-100;
+    height: 56px;
+    width: 56px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .first {
+    border-top-left-radius: 8px;
+  }
+
+  .last {
+    border-bottom-left-radius: 8px;
+  }
+
+  span:first-of-type {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+
+  span:last-of-type {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+
+  .essui-side-panel-content {
+    text-align: unset;
+  }
+
+  .essui-side-panel-footer {
+    gap: 24px !important;
+    padding: 32px !important;
+
+    @media only screen and (max-device-width: 768px) and (pointer: coarse) {
+      &-android-chrome {
+        padding: 32px !important;
+        gap: 24px !important;
+      }
+
+      &-android-edge {
+        padding: 32px !important;
+        gap: 24px !important;
+      }
+
+      &-ios-safari {
+        padding: 32px !important;
+        gap: 24px !important;
+      }
+
+      &-ios-chrome {
+        padding: 32px !important;
+        gap: 24px !important;
+      }
+    }
+  }
+}
+
+.school-calendar-side-panel {
+  .essui-side-panel-container-grid-item {
+    position: relative;
+  }
+
+  .overflow-menu-container {
+    .overflow-menu-with-icon {
+      margin-left: -65px !important;
+      min-width: 108px;
+    }
+  }
+
+  .school-calendar-loader-container {
+    background: #ffff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.8;
+    z-index: 100;
+    display: grid;
+    place-items: center;
+  }
+
+  .side-panel-header-with-menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+
+
